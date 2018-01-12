@@ -1,0 +1,49 @@
+{
+  "name": "apc-test",
+  "version": "1.0.0",
+  "description": "APC Test stack bundled into one package",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && nyc mocha",
+    "lint": "eslint *.js test/**/*.js src/**/*.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls && nyc report --reporter=text-lcov | codeclimate-test-reporter",
+    "stryker": "stryker run"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "codeclimate-test-reporter": "^0.5.0",
+    "coveralls": "^3.0.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0",
+    "stryker": "0.17.2",
+    "stryker-api": "0.12.0",
+    "stryker-html-reporter": "^0.11.2",
+    "stryker-javascript-mutator": "^0.3.1",
+    "stryker-mocha-framework": "^0.7.1",
+    "stryker-mocha-runner": "^0.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APCOvernight/apc-test.git"
+  },
+  "keywords": [
+    "test",
+    "js",
+    "testing",
+    "mocha",
+    "chai",
+    "stryker",
+    "node"
+  ],
+  "author": "Ian Egner <http://twitter.com/ianegner>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APCOvernight/apc-test/issues"
+  },
+  "homepage": "https://github.com/APCOvernight/apc-test#readme",
+  "devDependencies": {
+    "apc-style": "^0.4.3"
+  }
+}
