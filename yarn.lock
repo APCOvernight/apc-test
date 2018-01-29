@@ -1998,8 +1998,8 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
 nise@^1.2.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/nise/-/nise-1.2.1.tgz#460855eb68dffd54115d6a525f40c7938ec5a992"
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/nise/-/nise-1.2.2.tgz#9aa5edb500da38035884106e3c571341bc68b2c1"
   dependencies:
     formatio "^1.2.0"
     just-extend "^1.1.26"
