@@ -86,11 +86,11 @@ any-promise@^1.0.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
 
-apc-style@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/apc-style/-/apc-style-1.0.1.tgz#3bfd3ffa2b62ec55c2dac85558ca6a5bd208fe11"
+apc-style@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/apc-style/-/apc-style-1.0.2.tgz#d92b8bc3a3d17314b208e69b4604d09aa7918901"
   dependencies:
-    eslint-config-apc "1.0.1"
+    eslint-config-apc "1.0.2"
     pug-lint "2.5.0"
     sass-lint "1.12.1"
 
@@ -773,14 +773,14 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-apc@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-apc/-/eslint-config-apc-1.0.1.tgz#5c7095d9ba4dec22cd68b1960ff010a635801a04"
+eslint-config-apc@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-apc/-/eslint-config-apc-1.0.2.tgz#280cd6af184e4b2ceed3e75558c1d956c01b822e"
   dependencies:
-    eslint "4.16.0"
+    eslint "4.17.0"
     eslint-config-standard "10.2.1"
     eslint-plugin-import "2.8.0"
-    eslint-plugin-node "5.2.1"
+    eslint-plugin-node "6.0.0"
     eslint-plugin-promise "3.6.0"
     eslint-plugin-standard "3.0.1"
 
@@ -817,14 +817,14 @@ eslint-plugin-import@2.8.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
 
-eslint-plugin-node@5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-5.2.1.tgz#80df3253c4d7901045ec87fa660a284e32bdca29"
+eslint-plugin-node@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-6.0.0.tgz#5ad5ee6b5346aec6cc9cde0b8619caed2c6d8f25"
   dependencies:
     ignore "^3.3.6"
     minimatch "^3.0.4"
     resolve "^1.3.3"
-    semver "5.3.0"
+    semver "^5.4.1"
 
 eslint-plugin-promise@3.6.0:
   version "3.6.0"
@@ -845,9 +845,9 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@4.16.0:
-  version "4.16.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.16.0.tgz#934ada9e98715e1d7bbfd6f6f0519ed2fab35cc1"
+eslint@4.17.0:
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.17.0.tgz#dc24bb51ede48df629be7031c71d9dc0ee4f3ddf"
   dependencies:
     ajv "^5.3.0"
     babel-code-frame "^6.22.0"
@@ -2592,13 +2592,9 @@ sass-lint@1.12.1:
     path-is-absolute "^1.0.0"
     util "^0.10.3"
 
-"semver@2 || 3 || 4 || 5", semver@^5.3.0:
+"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
-
-semver@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
 serialize-javascript@^1.3.0:
   version "1.4.0"
@@ -2807,15 +2803,15 @@ strip-json-comments@~1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-1.0.4.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
 
-stryker-api@0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/stryker-api/-/stryker-api-0.12.0.tgz#e9ead8c1f2bb2286d5353198eb3bcbe1abeab4fb"
+stryker-api@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/stryker-api/-/stryker-api-0.13.0.tgz#25677e3d2f915630072ccdd1130ed793c60dee48"
   dependencies:
     tslib "^1.6.0"
 
-stryker-html-reporter@0.11.5:
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/stryker-html-reporter/-/stryker-html-reporter-0.11.5.tgz#37ea3b6ca019735fdccab61595b1235e53843e26"
+stryker-html-reporter@0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/stryker-html-reporter/-/stryker-html-reporter-0.12.1.tgz#93aab724fbf334d39419559f79cafef5707d2806"
   dependencies:
     file-url "^2.0.0"
     lodash "^4.13.1"
@@ -2842,16 +2838,16 @@ stryker-mocha-framework@0.8.3:
   dependencies:
     log4js "^1.1.1"
 
-stryker-mocha-runner@0.10.3:
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/stryker-mocha-runner/-/stryker-mocha-runner-0.10.3.tgz#a4dd58fd2d4de2db3402eaa9d7efe155d325276c"
+stryker-mocha-runner@0.10.5:
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/stryker-mocha-runner/-/stryker-mocha-runner-0.10.5.tgz#f2356bd2292498b73e03e576f9764f1401d1933b"
   dependencies:
     log4js "^1.1.1"
     tslib "^1.5.0"
 
-stryker@0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/stryker/-/stryker-0.18.1.tgz#223a40076ba054d5c85ee16813c9533a8764610b"
+stryker@0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/stryker/-/stryker-0.19.1.tgz#d2531ee959e33f0c27dcb6acde1ff30afe716831"
   dependencies:
     chalk "^2.3.0"
     commander "^2.12.2"
@@ -2869,8 +2865,9 @@ stryker@0.18.1:
     rimraf "^2.6.1"
     rxjs "^5.4.3"
     serialize-javascript "^1.3.0"
+    source-map "^0.6.1"
     tslib "^1.5.0"
-    typed-rest-client "^1.0.5"
+    typed-rest-client "^1.0.7"
 
 supports-color@4.4.0:
   version "4.4.0"
@@ -3016,9 +3013,9 @@ typed-html@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/typed-html/-/typed-html-0.6.0.tgz#15a6c19e6f4f7ee710b36a7b650a37c4e614dea5"
 
-typed-rest-client@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-1.0.5.tgz#5107cc002e2fe6cb0cf39c3e066fae24f6aa6688"
+typed-rest-client@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-1.0.7.tgz#0eba935a93b1ca8800bafa0b4605397ff8211c70"
   dependencies:
     tunnel "0.0.4"
     underscore "1.8.3"

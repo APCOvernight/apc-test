@@ -17,12 +17,12 @@
     "nyc": "11.4.1",
     "sinon": "4.2.2",
     "sinon-chai": "2.14.0",
-    "stryker": "0.18.1",
-    "stryker-api": "0.12.0",
-    "stryker-html-reporter": "0.11.5",
-    "stryker-mocha-framework": "0.8.3",
+    "stryker": "0.19.1",
+    "stryker-api": "0.13.0",
+    "stryker-html-reporter": "0.12.1",
     "stryker-javascript-mutator": "0.3.5",
-    "stryker-mocha-runner": "0.10.3"
+    "stryker-mocha-framework": "0.8.3",
+    "stryker-mocha-runner": "0.10.5"
   },
   "repository": {
     "type": "git",
@@ -44,6 +44,6 @@
   },
   "homepage": "https://github.com/APCOvernight/apc-test#readme",
   "devDependencies": {
-    "apc-style": "^1.0.1"
+    "apc-style": "1.0.2"
   }
 }
