@@ -2825,9 +2825,9 @@ stryker-html-reporter@0.11.5:
     rimraf "^2.6.1"
     typed-html "^0.6.0"
 
-stryker-javascript-mutator@0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/stryker-javascript-mutator/-/stryker-javascript-mutator-0.3.3.tgz#9c48271cfa181b6755147fde51ce3397eabd740f"
+stryker-javascript-mutator@0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/stryker-javascript-mutator/-/stryker-javascript-mutator-0.3.4.tgz#7a286e6dec889964e5cc9a5e0c1626363f6d38f4"
   dependencies:
     babel-core "^6.26.0"
     babel-generator "^6.26.0"
