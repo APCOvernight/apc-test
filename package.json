@@ -1,6 +1,6 @@
 {
   "name": "apc-test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "APC Test stack bundled into one package",
   "main": "index.js",
   "scripts": {
