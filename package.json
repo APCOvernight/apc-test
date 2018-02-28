@@ -44,6 +44,6 @@
   },
   "homepage": "https://github.com/APCOvernight/apc-test#readme",
   "devDependencies": {
-    "apc-style": "1.0.2"
+    "apc-style": "1.1.0"
   }
 }
