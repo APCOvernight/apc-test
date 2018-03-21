@@ -21,7 +21,7 @@
     "stryker-api": "0.13.0",
     "stryker-html-reporter": "0.12.1",
     "stryker-javascript-mutator": "0.4.0",
-    "stryker-mocha-framework": "0.8.3",
+    "stryker-mocha-framework": "0.8.4",
     "stryker-mocha-runner": "0.10.5"
   },
   "repository": {
