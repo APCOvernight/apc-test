@@ -3306,9 +3306,9 @@ stryker-javascript-mutator@0.5.0:
     log4js "^1.1.1"
     tslib "^1.8.0"
 
-stryker-mocha-framework@0.8.6:
-  version "0.8.6"
-  resolved "https://registry.yarnpkg.com/stryker-mocha-framework/-/stryker-mocha-framework-0.8.6.tgz#573f50b282269d897eb770f143b77e96ffc37c6c"
+stryker-mocha-framework@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/stryker-mocha-framework/-/stryker-mocha-framework-0.9.0.tgz#1d63741a1d67932a5feb0dae0869697e6b6a6034"
   dependencies:
     log4js "^1.1.1"
 
