@@ -7,6 +7,6 @@
     "branches": [ 90, 99 ],
     "statements": [ 90, 99 ]
   },
-  "reporter": [ "clover", "text", "text-summary", "html", "cobertura" ],
+  "reporter": [ "clover", "text", "text-summary", "html", "cobertura", "lcov" ],
   "cache": true
 }
