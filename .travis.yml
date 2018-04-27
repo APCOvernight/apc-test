@@ -15,3 +15,6 @@ after_script:
   - yarn run coverage
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
   - greenkeeper-lockfile-upload
+notifications:
+  webhooks: https://www.travisbuddy.com/
+  on_success: never
