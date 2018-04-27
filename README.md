@@ -30,7 +30,7 @@ Copy these scripts into your `package.json` file. They are used by the build in 
 ```json
   "test": "npm run lint && nyc mocha",
   "lint": "eslint *.js test/**/*.js src/**/*.js",
-  "coverage": "nyc report --reporter=text-lcov | coveralls && nyc report --reporter=text-lcov | codeclimate-test-reporter",
+  "coverage": "nyc report --reporter=text-lcov | coveralls",
   "stryker": "stryker run"
 ```
 
@@ -76,7 +76,7 @@ Copy the following into a `.nycrc` file:
     "branches": [ 90, 99 ],
     "statements": [ 90, 99 ]
   },
-  "reporter": [ "clover", "text", "text-summary", "html", "cobertura" ],
+  "reporter": [ "clover", "text", "text-summary", "html", "cobertura", "lcov" ],
   "cache": true
 }
 ```
@@ -167,7 +167,7 @@ These steps assume a public github repo and public npm module.
 5. Add to greenkeeper - https://github.com/apps/greenkeeper/installations/new
 6. Copy codeclimate token to travis
     - Get reporter id from CodeClimate / Project / Settings / Test Coverage
-    - Add it to the Travis repo settings as `CODECLIMATE_REPO_TOKEN` environment variables
+    - Add it to the Travis repo settings as `CC_TEST_REPORTER_ID` environment variables
 7. Check all badge are working (NPM and license won't work yet)
 8. Publish to NPM
 
