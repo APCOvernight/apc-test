@@ -1,5 +1,5 @@
 [![NPM Package][npm-badge]][npm-link] [![License][license-badge]][license-link] [![Build Status][travis-badge]][travis-link] [![Coverage Status][coveralls-badge]][coveralls-link] [![Maintainability][cc-badge]][cc-link] [![Dependencies][dm-badge]][dm-link] [![Dev Dependencies][dmdev-badge]][dmdev-link] [![Greenkeeper badge][gk-badge]][gk-link]
-
+[![Build Status](https://img.shields.io/jenkins/s/http/188.39.108.2:7669/job/APCOvernight/job/apc-test/job/master.svg?maxAge=30)]
 # APC Test
 Combined test dependencies for APC projects
 
