@@ -186,7 +186,7 @@ Recommended to be used with [apc-style](https://www.npmjs.com/package/apc-style)
 [travis-link]: https://travis-ci.org/APCOvernight/apc-test
 [coveralls-badge]: https://coveralls.io/repos/github/APCOvernight/apc-test/badge.svg?branch=master
 [coveralls-link]: https://coveralls.io/github/APCOvernight/apc-test?branch=master
-[cc-badge]: https://img.shields.io/codeclimate/maintainability/APCOvernight/apc-test.svg
+[cc-badge]: https://api.codeclimate.com/v1/badges/cf703e3c4ada005363aa/maintainability
 [cc-link]: https://codeclimate.com/github/APCOvernight/apc-test/maintainability
 [dm-badge]: https://img.shields.io/david/APCOvernight/apc-test.svg
 [dm-link]: https://david-dm.org/APCOvernight/apc-test
