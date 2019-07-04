@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - stryker > log4js > streamroller > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker-javascript-mutator > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker > inquirer > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker-javascript-mutator > @babel/generator > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker-javascript-mutator > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - nyc > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker-html-reporter > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker-javascript-mutator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - nyc > istanbul-reports > handlebars > async > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker > log4js > streamroller > async > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker-javascript-mutator > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - stryker > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T00:27:48.666Z'
