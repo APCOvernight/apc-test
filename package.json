@@ -7,7 +7,9 @@
     "test": "npm run lint && nyc mocha",
     "lint": "eslint *.js test/**/*.js src/**/*.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "stryker": "stryker run"
+    "stryker": "stryker run",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "chai": "4.2.0",
@@ -21,7 +23,8 @@
     "stryker-html-reporter": "0.18.1",
     "stryker-javascript-mutator": "0.14.1",
     "stryker-mocha-framework": "0.15.1",
-    "stryker-mocha-runner": "0.17.1"
+    "stryker-mocha-runner": "0.17.1",
+    "snyk": "^1.258.2"
   },
   "repository": {
     "type": "git",
@@ -44,5 +47,6 @@
   "homepage": "https://github.com/APCOvernight/apc-test#readme",
   "devDependencies": {
     "apc-style": "1.4.0"
-  }
+  },
+  "snyk": true
 }
