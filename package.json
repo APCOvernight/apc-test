@@ -15,7 +15,7 @@
     "mocha": "6.0.1",
     "nyc": "13.3.0",
     "sinon": "7.2.4",
-    "sinon-chai": "3.3.0",
+    "sinon-chai": "3.5.0",
     "stryker": "0.35.1",
     "stryker-api": "0.24.1",
     "stryker-html-reporter": "0.18.1",
