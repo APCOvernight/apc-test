@@ -14,7 +14,7 @@
     "coveralls": "3.0.2",
     "mocha": "6.0.1",
     "nyc": "13.3.0",
-    "sinon": "7.2.4",
+    "sinon": "9.0.1",
     "sinon-chai": "3.3.0",
     "stryker": "0.35.1",
     "stryker-api": "0.24.1",
